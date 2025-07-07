@@ -1,0 +1,22 @@
+[
+  { "id": "click1", "blocks": ["click:1"], "name": "はじめの一歩", "desc": "初めてクリックする" },
+  { "id": "click100", "blocks": ["click:100"], "name": "クリック好き", "desc": "100回クリックする" },
+  { "id": "click1000", "blocks": ["click:1000"], "name": "クリック中毒", "desc": "1000回クリックする" },
+  { "id": "total1k", "blocks": ["total:1000"], "name": "小さな一歩", "desc": "累計1000エメラルド" },
+  { "id": "total10k", "blocks": ["total:10000"], "name": "もう止まれない", "desc": "累計1万エメラルド" },
+  { "id": "facility0_1", "blocks": ["facility0:1"], "name": "鉱夫を雇う", "desc": "鉱夫を1人雇う" },
+  { "id": "facility1_1", "blocks": ["facility1:1"], "name": "ドローン始動", "desc": "採掘ドローンを買う" },
+  { "id": "facility2_1", "blocks": ["facility2:1"], "name": "精製開始", "desc": "エメラルド精製所設置" },
+  { "id": "facility3_1", "blocks": ["facility3:1"], "name": "ナノマシン稼働", "desc": "ナノマシン工場設置" },
+  { "id": "facility4_1", "blocks": ["facility4:1"], "name": "地下帝国誕生", "desc": "地下帝国を築く" },
+  { "id": "facility5_1", "blocks": ["facility5:1"], "name": "エメラルド星完成", "desc": "エメラルド星を獲得" },
+  { "id": "facility6_1", "blocks": ["facility6:1"], "name": "次元越え", "desc": "多次元鉱脈を得る" },
+  { "id": "facility7_1", "blocks": ["facility7:1"], "name": "時空掌握", "desc": "時空採掘場を設置" },
+  { "id": "facility8_1", "blocks": ["facility8:1"], "name": "AI完全支配", "desc": "AI支配採掘機獲得" },
+  { "id": "facility9_1", "blocks": ["facility9:1"], "name": "ダークマター抽出", "desc": "ダークマター生成装置設置" },
+  { "id": "facility10_1", "blocks": ["facility10:1"], "name": "宇宙を操る", "desc": "宇宙改変施設を得る" },
+  { "id": "facility11_1", "blocks": ["facility11:1"], "name": "異世界の門", "desc": "異世界ゲート開放" },
+  { "id": "facility12_1", "blocks": ["facility12:1"], "name": "虚無の力", "desc": "虚無の抽出機設置" },
+  { "id": "facility13_1", "blocks": ["facility13:1"], "name": "神話の遺産", "desc": "神話鉱床を手に入れる" },
+  { "id": "facility14_1", "blocks": ["facility14:1"], "name": "次元の覇者", "desc": "超次元コア獲得" }
+]
