@@ -97,7 +97,7 @@ function gameLoop() {
     }
   }
 
-  if (Date.now() - lastFortuneTime > 60000) {
+  if (Date.now() - lastFortuneTime > 8640000) {
     fortune++;
     lastFortuneTime = Date.now();
   }
