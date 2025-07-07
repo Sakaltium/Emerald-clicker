@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>エメラルドクリッカー</title>
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #00ffcc;
+      font-family: 'Orbitron', sans-serif;
+      text-align: center;
+    }
+    h1, h2 {
+      text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    }
+    .neon-btn {
+      background: linear-gradient(45deg, #00ffcc, #ff00ff);
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      font-size: 1.5em;
+      box-shadow: 0 0 10px #00ffcc, 0 0 20px #ff00ff;
+      border-radius: 10px;
+    }
+    .neon-btn:hover {
+      filter: brightness(1.2);
+    }
+    #fever-banner {
+      color: #ff00ff;
+      font-size: 2em;
+      margin: 20px;
+      animation: glitch 0.5s infinite;
+    }
+    @keyframes glitch {
+      0% { transform: translate(0, 0); }
+      25% { transform: translate(-2px, 2px); }
+      50% { transform: translate(2px, -2px); }
+      75% { transform: translate(-2px, -2px); }
+      100% { transform: translate(2px, 2px); }
+    }
+    .hidden {
+      display: none;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      margin: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      border: 2px solid #00ffcc;
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .card:hover {
+      filter: brightness(1.2);
+    }
+    .achieved {
+      background: #00ffcc;
+      color: black;
+    }
+    .emerald-counter {
+      font-size: 2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin: 20px;
+    }
+    .emerald-counter img {
+      width: 32px;
+      height: 32px;
+    }
+  </style>
+</head>
+<body>
+  <h1>💎 エメラルドクリッカー</h1>
+
+  <div class="emerald-counter">
+    <img src="emerald.png" alt="エメラルド">
+    <span id="emeralds">0</span>
+  </div>
+
+  <button id="click-btn" class="neon-btn">クリック！</button>
+  <div id="fever-banner" class="hidden">🎉 フィーバー中 🎉</div>
+
+  <h2>施設</h2>
+  <div id="facilities" class="grid"></div>
+
+  <div>占いの玉: <span id="fortune">0</span></div>
+  <button id="rebirth-btn" class="neon-btn">転生</button>
+
+  <h2>実績</h2>
+  <div id="achievements" class="grid"></div>
+
+  <h2>統計</h2>
+  <div id="stats"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
