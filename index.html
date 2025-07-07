@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>エメラルドクリッカー</title>
   <style>
     body {
@@ -45,7 +45,7 @@
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 10px;
       margin: 20px;
     }
@@ -81,7 +81,7 @@
   <h1>💎 エメラルドクリッカー</h1>
 
   <div class="emerald-counter">
-    <img src="emerald.png" alt="エメラルド">
+    <img src="emerald.png" alt="エメラルド" />
     <span id="emeralds">0</span>
   </div>
 
@@ -92,7 +92,11 @@
   <div id="facilities" class="grid"></div>
 
   <div>占いの玉: <span id="fortune">0</span></div>
+
   <button id="rebirth-btn" class="neon-btn">転生</button>
+
+  <h2>クリックアップグレード</h2>
+  <div id="click-upgrade" class="grid"></div>
 
   <h2>実績</h2>
   <div id="achievements" class="grid"></div>
